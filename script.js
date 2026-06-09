@@ -6,6 +6,6 @@ function startGame() {
         return;
     }
 
-    document.getElementById("output").innerText = "You are now managing " + team + "!";
+    document.getElementById("output").innerText =
+        "You are now managing " + team + "! Next: build your squad, play matches, and climb the table.";
 }
-
